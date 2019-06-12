@@ -5,8 +5,7 @@ con = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's'
 
 if(c in v):
     print("Vowel")
-    exit
 if(c in con):
     print("Consonant")
-else:
+if(c not in v and c not in con):
     print("invalid")
