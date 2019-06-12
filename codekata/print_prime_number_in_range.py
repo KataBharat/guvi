@@ -6,5 +6,5 @@ for i in range(a,b):
   for y in range(x):
     if(i%x==0):
       t=1
-  if(t==0):
+  if((t==0) and (i!=1)):
     print(i,end=' ')
