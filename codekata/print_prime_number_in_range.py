@@ -1,10 +1,10 @@
 a,b=map(int,input().split())
 
-for i in range(a,b):
-  x=i//2
-  t=0
-  for y in range(x):
-    if(i%x==0):
-      t=1
-  if((t==0) and (i!=1)):
-    print(i,end=' ')
+for i in range(a,b): 
+      
+   if i > 1: 
+       for n in range(2, i): 
+           if (i % n) == 0: 
+               break
+       else: 
+           print(i,end=' ') 
