@@ -1,2 +1,2 @@
-x=input()
-print(ord(x))
+x1=input()
+print(ord(x1))
