@@ -1,0 +1,9 @@
+s,s1=input().split()
+s=int(s)
+s1=int(s1)
+while(s%s1==0):
+    s=s/s1
+if(s==1):
+    print("yes")
+else:
+    print("no")
