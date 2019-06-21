@@ -1,3 +1,3 @@
 import math
 s=int(input())
-print(math.sin(s))
+print(int(math.sin(s)))
