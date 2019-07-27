@@ -4,4 +4,7 @@ k=[]
 for i in range(len(s)):
     if(i==s[i]):
         k.append(s[i])
-print(*(sorted(k)),end=' ')
+if(len(k)>0):
+    print(*(sorted(k)),end=' ')
+else:
+    print('-1')
