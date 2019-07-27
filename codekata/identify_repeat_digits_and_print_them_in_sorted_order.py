@@ -1,3 +1,4 @@
+x=int(input())
 s=[int(x) for x in input().split()]
 l=[]
 k=[]
