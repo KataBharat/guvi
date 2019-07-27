@@ -12,5 +12,7 @@ for i in l:
             t=t+1
     if(t>1):
         k.append(i)
-        
-print(*(sorted(k)),end='')
+if(len(k)>0:
+   print(*(sorted(k)),end='')
+else:
+   print("unique")
